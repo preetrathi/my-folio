@@ -8,7 +8,7 @@
 }
 
 .project-photo {
-    width: 40%;
+    width : 40%;
     height: 200px;
 }
 
@@ -29,10 +29,12 @@
 
 .tag {
     padding         : 4px 8px;
-    background-color: aquamarine;
+    background-color: rgb(146, 39, 143);
     border-radius   : 4px;
     margin-right    : 6px;
     margin-bottom   : 4px;
+    color           : white;
+    font-weight     : bold;
 }
 
 .project-links a {
@@ -49,18 +51,23 @@
     display         : flex;
     justify-content : center;
     align-items     : center;
-    background-color: aquamarine;
+    background-color: rgb(146, 39, 143);
     width           : max-content;
     padding         : 4px 8px;
     border-radius   : 4px;
     font-size       : 16px;
     margin-right    : 6px;
+    color           : white;
+    font-weight     : bold;
 }
 
 .link-button i {
     display     : flex;
     align-items : center;
     margin-right: 4px;
+}
+.colored{
+    color:#fff !important
 }
 
 @media only screen and (max-width:720px) {

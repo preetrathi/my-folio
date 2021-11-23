@@ -30,7 +30,7 @@ export const ProjectData = [
     image: require("../../assets/project_images/project_03.gif").default,
   },
   {
-    id: 1,
+    id: 4,
     title: "Stop Watch",
     about:
       "This is simple project created using HTML, CSS and JavaScript. In this project i created a stop watch with play pause and stop functionality",
@@ -40,23 +40,43 @@ export const ProjectData = [
     image: require("../../assets/project_images/project_01.PNG").default,
   },
   {
-    id: 4,
-    title: "Simple Calculator Using ReactJS",
+    id: 5,
+    title: "Portfolio",
     about:
-      "This is simple calculator created using ReacJS. In this project i created a calculator with basic functionality",
-    tags: ["HTML", "CSS", "JavaScript"],
-    demoLink: "https://preetrathi.github.io/simple-calculator-using-reactJS/",
-    github: "https://github.com/preetrathi/simple-calculator-using-reactJS",
-    image: require("../../assets/project_images/project_04.gif").default,
+      "This is simple Portfolio website created using HTML, CSS and JavaScript. This porfolio contain Home, about contact and work page, where all projects are shown.",
+    tags: ["HTML", "CSS", "JavaScript","JQuery"],  
+    demoLink: "https://preetrathi.github.io/portfolio/",
+    github: "https://github.com/preetrathi/portfolio",
+    image: require("../../assets/project_images/project_05.gif").default,
   },
   {
-    id: 1,
-    title: "Stop Watch",
+    id: 6,
+    title: "Simple Image Gallery",
     about:
-      "This is simple project created using HTML, CSS and JavaScript. In this project i created a stop watch with play pause and stop functionality",
-    tags: ["HTML", "CSS", "JavaScript"],
-    demoLink: "https://preetrathi.github.io/stop_watch/",
-    github: "https://github.com/preetrathi/simple-calculator-using-reactJS",
-    image: require("../../assets/project_images/project_04.gif").default,
+      "This is simple project created using HTML, CSS and PHP. This is simple image galery",
+    tags: ["HTML", "CSS", "PHP"],
+    demoLink: "https://preetrathi.github.io/token-generator-image/",
+    github: "https://github.com/preetrathi/token-generator-image",
+    image: require("../../assets/project_images/project_06.gif").default,
+  },
+  {
+    id: 7,
+    title: "Services Website",
+    about:
+      "This is simple project created using HTML, CSS, JavaScript. This is simple service selling website",
+    tags: ["HTML", "CSS"],
+    demoLink: "https://preetrathi.github.io/website_using_html_css/",
+    github: "https://github.com/preetrathi/website_using_html_css",
+    image: require("../../assets/project_images/project_07.gif").default,
+  },
+  {
+    id: 8,
+    title: "Custom Calculator",
+    about:
+      "This is custom calculator project created using HTML, CSS, JavaScript and JQuery. This i made using customer's some specific demands. This is currency based/ ",
+    tags: ["HTML", "CSS"],
+    demoLink: "https://preetrathi.github.io/Fiver_Projects/",
+    github: "https://github.com/preetrathi/Fiver_Projects",
+    image: require("../../assets/project_images/project_08.gif").default,
   },
 ];
