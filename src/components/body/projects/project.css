@@ -1,0 +1,14 @@
+.projects {
+    display       : flex;
+    flex-direction: column;
+    flex          : 1;
+    height        : 500px;
+    overflow      : scroll;
+    overflow-x    : hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
